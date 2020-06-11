@@ -12,7 +12,7 @@ button {
   border: 1px dotted green;
 }
 
-div {
+/* div {
   background-color: rgb(144, 184, 184);
   border: 3px solid rgb(10, 78, 63);
   width: 300px;
@@ -22,7 +22,7 @@ div {
   font-family: arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
-}
+} */
 
 #top {
   font-size: 36px;
@@ -56,4 +56,19 @@ td {
 
 th {
   background-color: lightgray;
+}
+
+input {
+  background-color: rgb(180, 147, 148);
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(118, 158, 118);
+}
+
+button:hover {
+  background-color: rgb(73, 134, 73);
 }

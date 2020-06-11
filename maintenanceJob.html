@@ -6,26 +6,28 @@
   </head>
   <body>
     <h1><img src="logo.jpeg" width="20%" /></h1>
-    Orden de trabajo
+    Job Order
     <form>
-      <ul>
-        <li>
-          <input type="number" placeholder="Orden de trabajo" name="jobOrder" />
-        </li>
-        <li>
-          <input type="date" placeholder="Fecha" name="worksDate" />
-        </li>
-        <li>
-          <input type="time" placeholder="Hora de inicio:" name="startsHour" />
-        </li>
-        <li>
-          <input
-            type="time"
-            placeholder="Hora de finalización:"
-            name="endsHour"
-          />
-        </li>
-      </ul>
+      <div>
+        Job order number:
+        <input type="number" placeholder="Orden de trabajo" name="jobOrder" />
+      </div>
+      <div>
+        Date:
+        <input type="date" placeholder="Fecha" name="worksDate" />
+      </div>
+      <div>
+        Starts hour:
+        <input type="time" placeholder="Hora de inicio:" name="startsHour" />
+      </div>
+      <div>
+        End hour:
+        <input
+          type="time"
+          placeholder="Hora de finalización:"
+          name="endsHour"
+        />
+      </div>
     </form>
     <button>Save</button>
     <button>Show in format</button>
