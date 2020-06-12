@@ -23,7 +23,8 @@ button {
   font-size: 20px;
   font-weight: bold;
 }
-*/ #top {
+
+#top {
   font-size: 36px;
 }
 
@@ -70,4 +71,38 @@ button {
 
 button:hover {
   background-color: rgb(73, 134, 73);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: rgb(144, 184, 184);
+  font-size: 20px;
+
+  border: 3px solid rgb(10, 78, 63);
+  /* width: 300px; */
+  margin: 20px;
+  padding: 20px;
+  font-family: arial, sans-serif;
+  height: 400px;
+  font-weight: bold;
+}
+
+.grid {
+  background-color: rgb(54, 116, 116);
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 250px auto;
+}
+
+.grid-item {
+  background-color: rgb(142, 165, 168);
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
 }
